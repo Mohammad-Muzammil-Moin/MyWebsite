@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MyWebsite/static/css/main.5ad08cdf.chunk.css",
+    "main.js": "/MyWebsite/static/js/main.f58150e3.chunk.js",
+    "main.js.map": "/MyWebsite/static/js/main.f58150e3.chunk.js.map",
+    "runtime-main.js": "/MyWebsite/static/js/runtime-main.950b625e.js",
+    "runtime-main.js.map": "/MyWebsite/static/js/runtime-main.950b625e.js.map",
+    "static/js/2.e3497593.chunk.js": "/MyWebsite/static/js/2.e3497593.chunk.js",
+    "static/js/2.e3497593.chunk.js.map": "/MyWebsite/static/js/2.e3497593.chunk.js.map",
+    "static/js/3.22652441.chunk.js": "/MyWebsite/static/js/3.22652441.chunk.js",
+    "static/js/3.22652441.chunk.js.map": "/MyWebsite/static/js/3.22652441.chunk.js.map",
+    "index.html": "/MyWebsite/index.html",
+    "static/css/main.5ad08cdf.chunk.css.map": "/MyWebsite/static/css/main.5ad08cdf.chunk.css.map",
+    "static/js/2.e3497593.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.e3497593.chunk.js.LICENSE.txt",
+    "static/media/businessman_PNG6558.12478e43.png": "/MyWebsite/static/media/businessman_PNG6558.12478e43.png",
+    "static/media/App.css": "/MyWebsite/static/media/handBages.e4befc85.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.950b625e.js",
+    "static/js/2.e3497593.chunk.js",
+    "static/css/main.5ad08cdf.chunk.css",
+    "static/js/main.f58150e3.chunk.js"
+  ]
+}
