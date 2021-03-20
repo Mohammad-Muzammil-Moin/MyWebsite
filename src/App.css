@@ -1,0 +1,359 @@
+/* Header _work started */
+
+.main {
+  box-shadow: none;
+}
+.heading {
+  text-shadow: 3px 1px 1px black, 1px 3px 1px white;
+  font-weight: bold;
+  flex-shrink: 2;
+  /* padding-top: 10px; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: medium;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px white;
+    /* margin-bottom: 20px; */
+  }
+}
+/* Header _work finished */
+
+/* Contents _ Part have started */
+.mainContent {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+.left_descrioption {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100%;
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  background: rgb(245, 242, 242);
+}
+.product_image {
+  display: flex;
+  width: 100%;
+  max-width: 550px;
+  height: 100vh;
+  border-radius: 10px;
+  /* background: rgb(245, 242, 242); */
+}
+.desciption_top {
+  display: flex;
+  padding: 20px;
+  height: 600px;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.review_section {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.handingSecond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+.Rating_number {
+  border-right: 1px solid crimson;
+  display: flex;
+  align-items: center;
+  padding: 0px 5px;
+}
+.Rating_reviews {
+  color: crimson;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+hr {
+  border-bottom: 1px solid crimson;
+}
+.for_padding {
+  padding: 10px 0px;
+}
+.rating_stars {
+  display: flex;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 0px;
+  justify-content: space-between;
+}
+.little_description {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price {
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.crimson {
+  color: crimson;
+}
+.product_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imageScooter {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+@media only screen and (max-width: 600px) {
+  .mainContent {
+    flex-direction: column;
+    margin-top: 400px;
+  }
+  /* .left_descrioption,
+  .desciption_top {
+    height: 375px;
+  } */
+  .little_description {
+    height: 30px;
+  }
+  .handingSecond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+  .left_descrioption {
+    display: flex;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: 100vh;
+    border-radius: 10px;
+    background: rgb(245, 242, 242);
+  }
+  .product_image {
+    /* margin-right: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    border-radius: 10px;
+    /* background: rgb(245, 242, 242); */
+  }
+  .imageScooter {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+  .mainContent {
+    position: relative;
+    bottom: 320px;
+    left: 10px;
+  }
+}
+.ItemsImages {
+  width: 100%;
+  height: auto;
+  background: rgb(245, 244, 242);
+}
+img {
+  width: 100%;
+  max-height: 300px;
+  max-width: 250px;
+  height: auto;
+}
+/* Contents _ Part have finished  */
+/* Working in home  */
+
+.Home_image {
+  width: 100%;
+  height: 100vh;
+}
+.background_div {
+  width: 100%;
+  margin-top: 63px;
+  /* visibility: hidden; */
+  color: white;
+  max-width: 100%;
+  height: 70vh;
+  position: relative;
+  /* border-bottom: 100px solid white; */
+  /* box-shadow: 1px 1px 5px white; */
+  max-height: 900px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity: 0.3; */
+  background-image: url("handBages.jpg");
+}
+.background_div::before {
+  content: "";
+  width: 100%;
+  background: rgba(5, 5, 5, 0.589);
+
+  inset: 0;
+  position: absolute;
+}
+.on_image_contents {
+  max-width: 100%;
+  height: 70vh;
+  max-height: 900px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.man_image {
+  width: 100%;
+  max-width: 500px;
+  height: 100vh;
+  z-index: 9;
+}
+.offer {
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+  bottom: 350px;
+  left: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.disscount {
+  /* color: rgba(14, 69, 221, 0.404); */
+  padding-bottom: 30px;
+  font-weight: bold;
+  display: flex;
+  font-size: 60px;
+  font-family: cursive;
+  text-shadow: 2px 1px 1px black, 1px 2px 1px crimson;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.offer_details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  letter-spacing: 1px;
+}
+.offer_details h1 {
+  font-size: 40px;
+  text-shadow: 2px 1px 1px black, 0px 0px 1px white, 1px 2px 1px crimson;
+  /* color: rgb(19, 29, 36); */
+  /* color: ; */
+}
+.offer_details h4 {
+  color: white;
+  font-style: italic;
+  text-shadow: 5px 1px 2px black, 1px 5px 4px rgb(221, 232, 236);
+  border-bottom: 5px double black;
+  border-radius: 0px 0px 10px 0px;
+  width: 100%;
+  max-width: 500px;
+  /* rgb(71, 57, 60); */
+  font-family: cursive;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .disscount {
+    padding-bottom: 30px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .offer_details h1 {
+    font-size: 35px;
+    width: 490px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .disscount {
+    padding-bottom: 30px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  .offer_details h1 {
+    font-size: 30px;
+    width: 400px;
+  }
+  .man_image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .disscount {
+    /* padding-bottom: 30px; */
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .offer_details h4 {
+    color: white;
+    font-style: italic;
+    /* width: 300px; */
+    border: none;
+    font-size: 20px;
+  }
+  .offer_details h1 {
+    font-size: 25px;
+    width: 300px;
+  }
+  .man_image {
+    display: none;
+  }
+  .offer {
+    left: 0px;
+    margin-left: 10px;
+    bottom: 320px;
+    width: 100%;
+    max-width: 300px;
+  }
+  /* .Product_heading { */
+  /* } */
+}
+.Product_heading {
+  font-size: 100%;
+  width: 100%;
+  border-radius: 0px 50px 0px 50px;
+  max-width: 500px;
+  text-shadow: 2px 1px 1px black, 1px 2px 1px crimson;
+  box-shadow: 1px 1px 5px darkgray;
+  color: rgba(14, 69, 221, 0.404);
+  /* border-bottom: 5px double rgb(204, 63, 91); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0px auto;
+  font-family: cursive;
+}
+/* End working in home  */
