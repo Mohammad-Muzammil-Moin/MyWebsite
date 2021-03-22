@@ -92,7 +92,7 @@ export default function Header() {
           position="fixed"
           style={{
             zIndex: "10",
-            opacity: "0.9",
+            // opacity: "0.9",
           }}
           color="primary"
         >

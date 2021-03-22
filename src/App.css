@@ -316,7 +316,9 @@ img {
     justify-content: center;
     align-items: center;
   }
-
+  .background_div {
+    margin-top: 0px;
+  }
   .offer_details h4 {
     color: white;
     font-style: italic;
